@@ -1,0 +1,23 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		},
+		{
+			"path": "C:\\SDK\\jai\\how_to"
+		},
+		{
+			"path": "C:\\SDK\\jai\\modules"
+		}
+	],
+	"build_systems":
+	[
+		{
+			"working_dir": "$project_path",
+			"name": "jai_stream",
+			"shell_cmd": "jai.exe main.jai -x64 +Autorun",
+			"file_regex": "^(.*):(\\d+),(\\d+): (Error.*|Warning.*|Info.*)",
+		}
+	],
+}
